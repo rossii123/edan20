@@ -1,0 +1,17 @@
+baseline
+Accuracy 0.7729066846782194
+
+lin-reg med ['word_n2', 'word_n1', 'word', 'word_p1', 'word_p2', 'pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	avg / total       0.95      0.95      0.95     47377
+lin-reg med ['pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	avg / total       0.02      0.13      0.03     47377
+
+dec-tree med ['word_n2', 'word_n1', 'word', 'word_p1', 'word_p2', 'pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	avg / total       0.95      0.95      0.95     47377
+dec-tree med ['pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	avg / total       0.07      0.26      0.11     47377
+
+perceptron med ['word_n2', 'word_n1', 'word', 'word_p1', 'word_p2', 'pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	avg / total       0.94      0.94      0.94     47377
+perceptron med ['pos_n2', 'pos_n1', 'pos', 'pos_p1', 'pos_p2']
+	0???
